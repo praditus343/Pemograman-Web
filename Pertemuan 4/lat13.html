@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi JS</title>
+    <script lang="JS">
+        function ckMarital(status){
+            document.getElementById('txtStatus').innerHTML = status;
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="post">
+        sudah menikah? :
+        <input type="radio" name="rdMaritalStatus" value="sudah" onclick="ckMarital(this.value)"> sudah
+        <input type="radio" name="rdMaritalStatus" value="belum" onclick="ckMarital(this.value)"> belum
+        <br>
+        status : <span id="txtStatus">Tidak ditentukan</span>
+    </form>
+
+</body>
+</html>

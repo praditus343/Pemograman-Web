@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="forml" method="post">
+        nama : <input type="text" name="txtNama" id="txtNama_Depan"/>
+    </form>
+
+    <a href="#"onclick="window.document.forms['forml'].txtNama.value='Haloo'"> 
+        Hierarcy Way</a>
+    <a href="#"onclick="document.getElementById('txtNama_Depan').value='Hai'">
+        Direct Way  
+    </a>
+</body>
+</html>

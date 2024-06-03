@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Challenge_22.11.4662</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        form table {
+            border: none;
+        }
+
+        form td,
+        form th {
+            border: none;
+            padding: 5px;
+        }
+
+        /* Menambahkan aturan untuk gambar buku */
+        img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Challenge_22.11.4662</h1>
+    <table>
+        <tr>
+            <td rowspan="4"><img src="https://s3-ap-southeast-1.amazonaws.com/ebook-previews/46052/171734/1.jpg" alt="Web Programming Book"></td>
+            <th colspan="2" style="background-color: yellow;">Daftar Buku</th>
+        </tr>
+        <tr>
+            <td>Judul</td>
+            <td>Web Programming</td>
+        </tr>
+        <tr>
+            <td>Harga</td>
+            <td>Rp. 245.000,00</td>
+        </tr>
+        <tr>
+            <td>Pengarang</td>
+            <td>John Dean</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2" style="border: none;">Isi formulir dibawah ini</td>
+            </tr>
+            <tr>
+                <td style="border: none;">Nama:</td>
+                <td style="border: none;"><input type="text" placeholder="Masukan Nama"></td>
+            </tr>
+            <tr>
+                <td style="border: none;">Password:</td>
+                <td style="border: none;"><input type="password"></td>
+            </tr>
+            <tr>
+                <td style="border: none;">Jenis Kelamin:</td>
+                <td style="border: none;">
+                    <input type="radio" name="gender" value="Laki-Laki" checked> Laki-Laki
+                    <input type="radio" name="gender" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none;">Hobi:</td>
+                <td style="border: none;">
+                    <input type="checkbox" name="hobi" value="Membaca Buku"> Membaca Buku
+                    <input type="checkbox" name="hobi" value="Menulis" checked> Menulis
+                    <input type="checkbox" name="hobi" value="Memancing"> Memancing
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none;">Asal Kota:</td>
+                <td style="border: none;">
+                    <select>
+                        <option value="Semarang" selected>Semarang</option>
+                        <option value="Yogyakarta">Yogyakarta</option>
+                        <option value="Solo">Solo</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none;">Komentar Anda:</td>
+                <td style="border: none;"><textarea placeholder="Silahkan katakan isi hati anda"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: none;"><input type="submit" value="Mulai Proses!"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

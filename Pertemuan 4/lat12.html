@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan JS</title>
+</head>
+<body>
+    <script>
+        var nilai, index;
+
+        nilai = 80;
+        if(nilai >= 85 && nilai <=100){
+            index = 'A';
+        } else if (nilai >=70){
+            index = 'B';
+        } else if (nilai >= 50){
+            index = 'C';
+        } else if (nilai >= 30){
+            index = 'D';
+        } else {
+            index = 'E';
+        }
+
+        document.write("Nilai anda adalah : " + nilai);
+        document.write("<br />");
+        document.write("Dengan index : " + index);
+    </script>
+</body>
+</html>
