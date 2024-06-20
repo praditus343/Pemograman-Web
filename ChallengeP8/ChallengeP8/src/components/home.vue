@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<template>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum 6</title>
@@ -67,7 +65,7 @@
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
                     <h1>Gillette Core</h1>
-                    <dotlottie-player src="img/hero-img.lottie" background="transparent" speed="1" style="width: 600px; height: 350px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+                    <dotlottie-player src="..assets/hero-img.lottie" background="transparent" speed="1" style="width: 600px; height: 350px" direction="1" playMode="normal" loop autoplay></dotlottie-player>
                 </div>
             </div>
         </div>
@@ -144,4 +142,49 @@
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 </body>
 
-</html>
+</template>
+
+<script>
+
+</script>
+
+<style scoped>
+    .logo {
+        width: 100px;
+    }
+
+    #hero {
+        background-color: #f8f9fa;
+        padding: 100px 0;
+    }
+
+    .hero-img {
+        text-align: center;
+    }
+
+    .btn-get-started {
+        font-size: 16px;
+        padding: 10px 24px;
+        border-radius: 50px;
+        transition: 0.5s;
+    }
+
+    .btn-get-started:hover {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .btn-outline {
+        border: 1px solid #28a745;
+        color: #28a745;
+        transition: 0.5s;
+    }
+
+    .btn-outline:hover {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .bg-body-tertiary {
+        background-color: #f8f9fa;
+    }
